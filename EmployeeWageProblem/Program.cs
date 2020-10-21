@@ -11,17 +11,23 @@ namespace EmployeeWageProblem
         static void Main(string[] args)
         {
             const int IS_EMPLOYEE_FULL_TIME = 1;
+            const int EMPLOYEE_RATE_PER_HOUR = 20;
+
+            int empHrs = 0;
+            int empWage;
 
             /// Checks if Employee is present,it will give Present message
             /// IF Employee not present it will give Absent message
             if(employeeCheck() == IS_EMPLOYEE_FULL_TIME)
             {
-                Console.WriteLine("Employee is Present");
+                empHrs = 8;
             }
             else
             {
-                Console.WriteLine("Employee is Absent");
+                empHrs = 0;
             }
+            empWage = empHrs * EMPLOYEE_RATE_PER_HOUR;
+            Console.WriteLine("Daily Employee Wage : "+empWage);
         }
 
         /// <summary>
