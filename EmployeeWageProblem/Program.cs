@@ -30,7 +30,7 @@ namespace EmployeeWageProblem
                 /// If Employee is Fulltime,it will give Fulltime Employee hours
                 /// If Employee is Parttime,it will give Parttime Employee hours
                 /// If Employee not present it will give Absent Employee hours ie, zero hours.
-                switch (employeeCheck())
+                switch (EmployeeCheck())
                 {
                     case IS_EMPLOYEE_FULL_TIME:
                         empHrs = 8;
@@ -54,7 +54,7 @@ namespace EmployeeWageProblem
         /// Checks whether Employee present or not
         /// </summary>
         /// <returns></returns>
-        public static int employeeCheck()
+        public static int EmployeeCheck()
         {
             /// Create references for Random class
             Random random = new Random();
