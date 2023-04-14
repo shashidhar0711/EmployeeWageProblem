@@ -60,6 +60,15 @@ namespace EmployeeWageProblem
             Random random = new Random();
             /// Returns random value
             return random.Next(0, 3);
+        }   
+        
+        // create new function for testing purpose
+        public static int EmployeeCheckTwo()
+        {
+            /// Create references for Random class
+            Random random = new Random();
+            /// Returns random value
+            return random.Next(0, 3);
         }
     }
 }
