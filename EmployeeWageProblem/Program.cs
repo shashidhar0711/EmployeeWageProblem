@@ -26,6 +26,11 @@ namespace EmployeeWageProblem
             int totalEmployeeHours = 0;
             int totalEmployeeWages = 0;
             int totalWokingDays = 0;
+            
+            int empHrs = 0;
+            int totalEmployeeHours = 0;
+            int totalEmployeeWages = 0;
+            int totalWokingDays = 0;
 
             /// By Looping untill Condition reaches
             /// Upto Number of Working Days
