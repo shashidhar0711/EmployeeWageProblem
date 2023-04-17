@@ -16,6 +16,12 @@ namespace EmployeeWageProblem
             const int NUM_0F_WORKING_DAYS = 2;
             const int MAX_HOURS_IN_MONTH = 20;
 
+            const int IS_EMPLOYEE_FULL_TIME = 1;
+            const int IS_EMPLOYEE_PART_TIME = 2;
+            const int EMPLOYEE_RATE_PER_HOUR = 20;
+            const int NUM_0F_WORKING_DAYS = 2;
+            const int MAX_HOURS_IN_MONTH = 20;
+            
             int empHrs = 0;
             int totalEmployeeHours = 0;
             int totalEmployeeWages = 0;
